@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://Events/Elements/message.gd" type="Script" id=1]
+
+[node name="message_0" type="Node"]
+
+script/script = ExtResource( 1 )
+face = null
+pos = "Right"
+text = "ChangeIt"
+
+

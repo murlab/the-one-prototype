@@ -1,0 +1,69 @@
+[gd_resource type="SampleLibrary" load_steps=10 format=1]
+
+[ext_resource path="res://Sound/Open1.wav" type="Sample" id=1]
+[ext_resource path="res://Sound/Pss.wav" type="Sample" id=2]
+[ext_resource path="res://Sound/bulk.wav" type="Sample" id=3]
+[ext_resource path="res://Sound/click.wav" type="Sample" id=4]
+[ext_resource path="res://Sound/cursor.wav" type="Sample" id=5]
+[ext_resource path="res://Sound/pur.wav" type="Sample" id=6]
+[ext_resource path="res://Sound/pur2.wav" type="Sample" id=7]
+[ext_resource path="res://Sound/push_in.wav" type="Sample" id=8]
+[ext_resource path="res://Sound/push_out.wav" type="Sample" id=9]
+
+[resource]
+
+samples/Open1 = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 1 )
+}
+samples/Pss = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 2 )
+}
+samples/bulk = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 3 )
+}
+samples/click = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 4 )
+}
+samples/cursor = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 5 )
+}
+samples/pur = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 6 )
+}
+samples/pur2 = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 7 )
+}
+samples/push_in = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 8 )
+}
+samples/push_out = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 9 )
+}
+

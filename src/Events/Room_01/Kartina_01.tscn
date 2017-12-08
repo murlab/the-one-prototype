@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://Events/Elements/root.gd" type="Script" id=1]
+[ext_resource path="res://Events/Elements/_name.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Events/Elements/_message.tscn" type="PackedScene" id=3]
+
+[node name="kartina" type="Node"]
+
+script/script = ExtResource( 1 )
+
+[node name="name" parent="." instance=ExtResource( 2 )]
+
+eventName = "Картина"
+
+[node name="steps" type="Node" parent="."]
+
+[node name="#00" type="Node" parent="steps"]
+
+[node name="kick" type="Node" parent="steps/#00"]
+
+[node name="message_0" parent="steps/#00/kick" instance=ExtResource( 3 )]
+
+face = "res://Images/Faces/Actor_01.png"
+text = "Разбить стекло, что бы затем порезать руки? Зачем?"
+
+[node name="look" type="Node" parent="steps/#00"]
+
+[node name="message_0" parent="steps/#00/look" instance=ExtResource( 3 )]
+
+face = "res://Images/Faces/Actor_01.png"
+text = "Картина с этими двумя зданиями действует успокаивающе, расслабляюще. Хочется увидеть её ещё раз и навсегда \"сохранить\" в памяти."
+
+[node name="make" type="Node" parent="steps/#00"]
+
+[node name="message_0" parent="steps/#00/make" instance=ExtResource( 3 )]
+
+face = "res://Images/Faces/Actor_01.png"
+text = "Самое время сохраниться"
+
+[node name="speak" type="Node" parent="steps/#00"]
+
+[node name="message_0" parent="steps/#00/speak" instance=ExtResource( 3 )]
+
+face = "res://Images/Faces/Actor_01.png"
+text = "Свет мой зеркальце скажи,... упс! это же не зеркало!"
+
+

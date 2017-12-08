@@ -1,0 +1,54 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://Scripts/EventBox.gd" type="Script" id=1]
+[ext_resource path="res://Images/Events/Empty.png" type="Texture" id=2]
+[ext_resource path="res://Fonts/Font_02.fnt" type="BitmapFont" id=3]
+
+[node name="EventBox" type="Node2D"]
+
+script/script = ExtResource( 1 )
+eventConfig = null
+eventImage = null
+viewFromLeft = true
+viewFromRight = true
+viewFromUp = true
+viewFromDown = true
+playerPosition = "below"
+
+[node name="Sprite" type="Sprite" parent="."]
+
+texture = ExtResource( 2 )
+
+[node name="Name" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -50.0
+margin/top = 0.0
+margin/right = 50.0
+margin/bottom = 30.0
+custom_fonts/font = ExtResource( 3 )
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Step" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -50.0
+margin/top = -30.0
+margin/right = 50.0
+margin/bottom = 0.0
+custom_fonts/font = ExtResource( 3 )
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+

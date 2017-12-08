@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://Scripts/Button.gd" type="Script" id=1]
+[ext_resource path="res://Images/KeyLocker/key.png" type="Texture" id=2]
+[ext_resource path="res://Images/KeyLocker/Cursor.png" type="Texture" id=3]
+
+[node name="Button_1" type="Node2D"]
+
+script/script = ExtResource( 1 )
+showButton = "0"
+
+[node name="Released" type="Sprite" parent="."]
+
+texture = ExtResource( 2 )
+
+[node name="Pressed" type="Sprite" parent="."]
+
+[node name="Cursor" type="Sprite" parent="."]
+
+transform/pos = Vector2( 18, 3 )
+texture = ExtResource( 3 )
+centered = false
+
+

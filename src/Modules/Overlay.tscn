@@ -1,0 +1,10 @@
+[gd_scene format=1]
+
+[node name="Overlay" type="CanvasLayer"]
+
+layer = 1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+
+
